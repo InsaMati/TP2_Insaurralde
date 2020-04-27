@@ -10,21 +10,6 @@ using System.Windows.Forms;
 using Dominio;
 using Negocio;
 
-/*
- *
- 
-  
- Listar (Falta mostrar precio) y preguntar IdMarca, IdCategoria
- Eliminar (Chequear)
- Buscar (Chequear)
- Agregar (Faltan Validaciones) y preguntar sobre idmarca, idcategoria
- Modificar (Chequear)
-
-    Si queda tiempo hacer la interfaz un poco mas amigable a los ojos
-     
-    19/4/2020
-     */
-
 namespace TP2_Insaurralde
 {
     public partial class Principal : Form

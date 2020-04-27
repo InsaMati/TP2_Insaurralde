@@ -125,7 +125,7 @@ namespace TP2_Insaurralde
 
         private void TxtPrecio_KeyPress(object sender, KeyPressEventArgs e)
         {
-            if ((e.KeyChar < 48 || e.KeyChar > 59) && e.KeyChar != 8)
+            if ((e.KeyChar < 46 || e.KeyChar > 57) && e.KeyChar != 8)
                 e.Handled = true;
         }
     }
