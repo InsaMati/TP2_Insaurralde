@@ -62,6 +62,8 @@ namespace TP2_Insaurralde
                 CmbMarca.ValueMember = "Id";
                 CmbMarca.DisplayMember = "NombreMarca";
 
+                TxtPrecio.Text = Convert.ToString("0");
+
                 if(producto != null)
                 {
                     TxtCodigo.Text = producto.Codigo;
